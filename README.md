@@ -1,0 +1,2 @@
+This is a restaurant reservation system project. In this project there are two main roles, first is of customer who can make, modify and delete the reservation.
+ The second one is of restaurant owner, who can make and edit reservations, can also assign a table. There is also a functionality to auto assign a table. Owner can also edit restaurant profile and settings.
