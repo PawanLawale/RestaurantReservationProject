@@ -1,0 +1,24 @@
+ul li{
+    font-family: fantasy;
+    float: left;
+    width: 14%;
+    padding: 5px;
+    text-align: center;
+}
+
+.ownerName{
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: medium;
+    position: absolute;
+    top: 7%;
+    right: 5%
+}
+
+.tableSection{
+    font-family: fantasy;
+    position: absolute;
+    width: 90%;
+    left: 30%;
+    top: 15%;
+}

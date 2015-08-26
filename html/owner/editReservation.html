@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book My Table - Edit Reservation</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/container.css">
+    <link rel="stylesheet" href="../../css/owner/ownerCommon.css">
+    <meta name="description" content="A Restaurant reservation system where you can reserve a table in your favorite restaurant online.">
+</head>
+<body>
+<header class="headerBackground">
+    <span class="headerTitle">Book My Table</span>
+    <span class="ownerName">Welcome Mr. Pawan Lawale</span>
+</header>
+
+<section class="navigationBar">
+    <ul>
+        <li><a href="viewReservations.html">View Reservation</a></li>
+        <li><a href="viewSeatingArea.html">View Seating Area</a></li>
+        <li><a href="makeReservation.html">Make Reservation</a></li>
+        <li><a href="editReservation.html">Edit Reservation</a></li>
+        <li><a href="profileAndSettings.html">Profile & Settings</a></li>
+        <li><a href="guestHistory.html">Guest Records</a></li>
+        <li><a href="../homePage.html">Sign Out</a></li>
+    </ul>
+    <div style="clear: both"></div>
+</section>
+
+<form>
+    <section class="contentContainer">
+        <article class="innerContainer">
+            <section class="containerHeading">Edit Reservation</section>
+            <section class="containerTable">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td><label>Enter Confirmation Code</label> </td>
+                        <td><input type="text" required="required"></td>
+                        <td><input name="button" type="submit" value="Submit"></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <br>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td><label>Name</label> </td>
+                        <td>:</td>
+                        <td>Pawan Lawale</td>
+                    </tr>
+                    <tr>
+                        <td><label>Date</label> </td>
+                        <td>:</td>
+                        <td><input type="date" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Time</label> </td>
+                        <td>:</td>
+                        <td><input type="time" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Party Size</label> </td>
+                        <td>:</td>
+                        <td><input type="number" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Contact Number</label> </td>
+                        <td>:</td>
+                        <td><input type="number" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Reservation Status</label> </td>
+                        <td>:</td>
+                        <td><label>Confirm/Waiting</label> </td>
+                    </tr>
+                    <tr class="buttonRow">
+                        <td><input name="button" type="submit" value="Modify" onclick="location.href='reservationDetails.html';"></td>
+                        <td></td>
+                        <td><input name="button" type="submit" value="Cancel Reservation"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+    </section>
+</form>
+
+
+</body>
+</html>
