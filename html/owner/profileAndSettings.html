@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book My Table - Profile & Settings</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/container.css">
+    <link rel="stylesheet" href="../../css/owner/ownerCommon.css">
+    <meta name="description" content="A Restaurant reservation system where you can reserve a table in your favorite restaurant online.">
+</head>
+<body>
+<header class="headerBackground">
+    <span class="headerTitle">Book My Table</span>
+    <span class="ownerName">Welcome Mr. Pawan Lawale</span>
+</header>
+
+<section class="navigationBar">
+    <ul>
+        <li><a href="viewReservations.html">View Reservation</a></li>
+        <li><a href="viewSeatingArea.html">View Seating Area</a></li>
+        <li><a href="makeReservation.html">Make Reservation</a></li>
+        <li><a href="editReservation.html">Edit Reservation</a></li>
+        <li><a href="profileAndSettings.html">Profile & Settings</a></li>
+        <li><a href="guestHistory.html">Guest Records</a></li>
+        <li><a href="../homePage.html">Sign Out</a></li>
+    </ul>
+    <div style="clear: both"></div>
+</section>
+
+<form>
+    <section class="contentContainer">
+        <article class="innerContainer">
+            <section class="containerHeading">Profile & Settings</section>
+            <section class="containerTable">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td><label>Name</label> </td>
+                        <td><input type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Contact No</label> </td>
+                        <td><input type="number" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label> </td>
+                        <td><input type="email" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Address</label> </td>
+                        <td><input type="text" required="required"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label>Restaurant Operating Days:</label> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <table>
+                                <tr>
+                                    <td><input type="checkbox" value="Monday">  Mon</td>
+                                    <td><input type="checkbox" value="tuesday"> Tue</td>
+                                    <td><input type="checkbox" value="wednesday"> Wed </td>
+                                    <td><input type="checkbox" value="thursday"> Thu</td>
+                                    <td><input type="checkbox" value="friday"> Fri </td>
+                                    <td><input type="checkbox" value="saturday"> Sat </td>
+                                    <td> <input type="checkbox" value="sunday"> Sun </td>
+
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Restaurant Timings:</td>
+                    </tr>
+                    <tr>
+                        <td>Opening Time</td>
+                        <td><input type="time"></td>
+                    </tr>
+                    <tr>
+                        <td>Closing Time</td>
+                        <td><input type="time"></td>
+                    </tr>
+                    <tr>
+                        <td>Auto Assign</td>
+                        <td><input type="checkbox" value="Yes"></td>
+                    </tr>
+                    <tr class="buttonRow">
+                        <td><input name="button" type="reset" value="Reset"></td>
+                        <td><input name="button" type="submit" value="Submit"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+    </section>
+</form>
+
+
+</body>
+</html>

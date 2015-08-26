@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    background-color: white;
+    height: 100%;
+    /*background-image: url("../images/reservationsBackground.jpg");*/
+    /*background-size: 100% 100%;*/
+    /*background-repeat: no-repeat;*/
+}
+
+.headerBackground{
+    height: 20%;
+    left: 2%;
+    right: 2%;
+    top: 2%;
+    background-image: linear-gradient(#4e5d7f,#1f2533);
+    /*background-image: linear-gradient(to top,#339e29,#11340d);*/
+}
+
+.headerTitle {
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: xx-large;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.navigationBar{
+    position: fixed;
+    top: 17%;
+    left: 2%;
+    right: 2%;
+}
+
+ul{
+    background-image: linear-gradient(#666666,#191919);
+    position: absolute;
+    color: white;
+    list-style: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ul li{
+    font-family: fantasy;
+    float: left;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
+ul li:hover{
+    text-indent: 5px;
+    cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    height: 5%;
+    left: 0%;
+    right: 0%;
+    top: 95%;
+    background-image: linear-gradient(#4e5d7f,#1f2533);
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
